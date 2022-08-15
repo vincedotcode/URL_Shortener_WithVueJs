@@ -1,10 +1,9 @@
 # url_short
 
 ## Live Project Link
-```
+
 [https://urlstrip.netlify.app/](https://urlstrip.netlify.app/).
 
-```
 
 
 
