@@ -1,26 +1,39 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+* {
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: #047857;
+}
+</style>
+
+
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+
+
+  <Main />
+  
+  <Footer />
 </template>
 
-<script>
-import HelloWorld from './components/HelloWorld.vue'
 
+
+
+<script>
+import Footer from './components/Footer.vue';
+import Main from './components/Main.vue';
 export default {
-  name: 'App',
+  name: 'URL Shortener',
   components: {
-    HelloWorld
+    Footer,
+    Main,
+  },
+  data() {
+    
   }
 }
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
